@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <!-- En este div se muestra información enviada desde un archivo javascript-->
+    <div id="aplicacion"></div>
+
+    <!-- En este apartado se ejecuta código de javascript desde el onclick de un button-->
+    <div id="demo"></div><br>
+    <button onclick="document.getElementById('demo').innerHTML = Date()">¿Qué fecha es?</button>
+
+    <!-- A este button se le asigna un evento para mostrar una alerta-->
+    <button id="btn">Alerta</button>
+    <br>
+
+    <!-- Ejemplo de validación de formularios-->
+    <p>Escriba un número del 1 al 10</p>
+    <br>
+    <input type="number" id="numb">
+    <button onclick="validarInput()">Validar</button>
+    <div id="mensaje"></div>
+    <div style="margin-top: 10px;">
+        <form name="miFormulario" action="/action_page.php" onsubmit="validarFormulario()" method="post">
+            Nombre: <input type="text" name="nombre">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+
+    <script src="fundamentos/eventos.js"></script>
+    <script src="dom/formularios.js"></script>
+</body>
+
+</html>

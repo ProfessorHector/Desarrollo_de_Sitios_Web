@@ -1,0 +1,106 @@
+/* Selectores */
+
+/* Selector Universal */
+
+* { 
+    box-sizing: border-box;
+}
+
+/* Selector de Etiqueta */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+}
+
+/* Selector de Clase - class */
+
+.pagina {
+   margin: 10px;
+   background-color: whitesmoke;
+   box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Selector de Indentificador - id */
+
+#encabezado {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: mediumslateblue;
+}
+
+/* Estilos para el menu de navegación*/
+
+.menu_navegacion {
+    padding: 10px;
+}
+
+/* Estilo para el logo */
+.logo {
+    background-color: coral;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid crimson;
+    border-radius: 5px;
+}
+
+.logo:hover {
+    background-color: crimson;
+}
+
+/* Estilo aplicado a la etiqueta <section>, <aside>, <article> <footer>*/
+#seccion {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+aside {
+    padding: 10px;
+    flex: 30%;
+}
+
+article {
+    padding: 10px;
+    flex: 70%;
+}
+
+.cover {
+    padding: 20px;
+    background-image: url(../../IMG/cover.jpg);
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.menu > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.enlace {
+    color: blueviolet;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.enlace:hover {
+    border-bottom: 2px solid coral;
+}
+
+footer {
+    background-color: slategray;
+    padding: 20px;
+    text-align: center;
+}
+
+
+

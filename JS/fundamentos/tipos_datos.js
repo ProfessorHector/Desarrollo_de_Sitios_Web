@@ -1,3 +1,6 @@
+/**
+ * Tipos de Datos
+ */
 //Number
 
 let longitud = 16; 
@@ -27,10 +30,12 @@ let Objeto = {
     apellido:"Bautista"
 };  
 
+console.table(Objeto);
+
 //Boolean
 
-let a = 5;
-let b = 5;
-let c = 6;
-(a == b)       // true
-(a == c)       // false 
+//let a = 5;
+//let b = 5;
+//let c = 6;
+//(a == b)       // true
+//(a == c)       // false 

@@ -1,8 +1,3 @@
-let app = document.getElementById('aplicacion');
-
-app.innerHTML = "<h1> Hola desde JavaScript <h1>";
-
-
 function validarInput() {
     
     // Get the value of the input field with id="numb"

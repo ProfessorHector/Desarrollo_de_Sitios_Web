@@ -1,3 +1,7 @@
+/**
+ * Objetos
+ */
+
 const persona = {
     id       : 0001,
     nombre: "John",
@@ -7,5 +11,5 @@ const persona = {
     }
 };
 
-console.log(persona.nombreCompleto());
+console.table(persona);
 

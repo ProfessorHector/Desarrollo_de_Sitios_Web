@@ -1,3 +1,6 @@
+/**
+ * Sintaxis
+ */
 // Declarar variables
 var x;
 let y;
